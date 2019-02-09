@@ -21,9 +21,9 @@ ul{
 }
 
 .button_1{
-    height: 35px;   /* original 38 */
+    height: 38px;
     background: #e8491d;
-    border: 0;
+    border: none;
     padding-left: 20px;
     padding-right: 20px;
     color: #ffffff;
@@ -150,10 +150,25 @@ aside#sidebar{
     margin-top: 10px;
 }
 
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+    witdth: 90%;
+    padding: 5px;
+    margin-bottom: 5px;   /* not in the original */
+}
+
 /* Article  Main-col */
 article#main-col{
     float: left;
     width: 65%;
+}
+
+/* Services */
+ul#services li{
+    list-style: none;
+    padding: 20px;
+    border: #cccccc solid 1px;
+    margin-bottom: 5px;
+    background: #e6e6e6;
 }
 
 footer{
@@ -163,4 +178,3 @@ footer{
     background-color: #e8491d;
     text-align: center;
 }
-
